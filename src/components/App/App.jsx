@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 
 class App extends Component {
 	state = {};
 
 	render() {
-		return <h1>fuck eric</h1>;
+		return (
+			<>
+				<Navbar />
+				<h1>fuck eric</h1>
+			</>
+		);
 	}
 }
 
